@@ -24,7 +24,7 @@ $(document).ready(function () {
 
   carouselSlides.forEach((slide, i) => {
     $('.carousel-inner').append(`
-  <div class="carousel-item fullscreen-carousel" style="background-image: url('${slide.img}')">
+  <div class="carousel-item fullscreen-carousel" style="background-image: src('${slide.img}')">
     <div class="d-flex h-100 align-items-center justify-content-center carousel-caption">
         <div class="container">
           <div class="row align-items-center justify-content-center">
